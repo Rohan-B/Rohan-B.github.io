@@ -1,11 +1,9 @@
--   qualification: BSc(Hons) Computer Programming
-    school: Oxford
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+-   qualification: BSc Computer Science - Applied Mathematics
+    school: University of California, San Diego
+    description: ["GPA: 3.5 (Provost Honors)", "Coursework: 
+	CSE 11: Object Oriented Programming, 
+	CSE 12: Data Structures and Object-Oriented Design, 
+	CSE 30: Computer Organization and Systems Programming, 
+	CSE 21: Mathematics for Algorithms and Systems"]
 
--   qualification: A-Level Computing
-    school: Some High School
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
--   qualification: A-Level Maths
-    school: Some High School
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
