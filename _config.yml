@@ -10,9 +10,10 @@ name: Rohan Bhargava
 job: computer science student 
 location: Bay Area, CA
 languages: Java, C, Javascript
-twitter_username: rohanb
+twitter_username: false
 github_username:  Rohan-B
-codepen_username:  
+codepen_username: false
+linkedin_username: rohanb1
 email_address: r2bharga@ucsd.edu
 
 # Build settings
