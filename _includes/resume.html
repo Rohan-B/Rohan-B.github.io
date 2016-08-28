@@ -20,12 +20,16 @@
 <dl class="experience">
 	{% for job in site.data.jobs %}
 	<dt>
-	<p class="title">{{ job.title }}</p>
-	<p class="company">{{ job.company }}</p>
-	<p class="period">{{ job.period }}</p>
+		<p class="title">{{ job.title }}</p>
+		<p class="company">{{ job.company }}</p>
+		<p class="period">{{ job.period }}</p>
 	</dt><!--
 	--><dd>
-	<p>{{ job.description }}</p>
+			{% for info in job.description %}
+			<ul>
+				<li style="list-style-type: circle;"> {{ info }} </li>
+			</ul>
+			{% endfor %}
 	</dd>
 	{% endfor %}
 </dl>
