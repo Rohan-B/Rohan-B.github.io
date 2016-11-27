@@ -1,6 +1,6 @@
 <header>
-    <div class="container" id="container" style="height:auto">
-        <div class="intro">
+    <div class="container" id="container" style="height:200%">
+      <div class="intro">
 			<div id="helloData">
 			<p>Hello</p>
 			</div>
@@ -21,7 +21,7 @@
 		</div>
 		
 		{{ if site.github_username or site.codepen_username or site.twitter_username or site.email_address }}
-        <div class="social">
+        <div class="social tnsl-flicker">
             {{ if site.github_username }}<a href="http://github.com/{{ site.github_username }}" target="_blank">GitHub</a>{{ endif }}
             <!-- {{ if site.codepen_username }}<a href="http://codepen.io/{{ site.codepen_username }}" target="_blank">CodePen</a>{{ endif }}
             {{ if site.twitter_username }}<a href="http://twitter.com/{{ site.twitter_username }}"
@@ -60,10 +60,12 @@
 	});
 	/*END Typed JS functions */
 
-	//this is bad code and I should fix it later
+	setTimeout(function() {tnslInit([1]);}, 8500);
+
+	// this is bad code and I should fix it later
 	if ($(window).height() > 585) {
 		$("#container").height($(window).height() * 0.5);
-	}
+	} 
 
 
 </script>

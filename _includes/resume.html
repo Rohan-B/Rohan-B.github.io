@@ -34,6 +34,25 @@
 	{% endfor %}
 </dl>
 
+<h3 class="section-title">Projects</h3>
+<dl class="experience">
+	{% for project in site.data.projects %}
+	<dt>
+		<p class="title">{{ project.title }}</p>
+		{{ if project.github }}<a href="http://github.com/{{ site.github_username }}/{{project.github}}" target="_blank">GitHub</a>{{ endif }}
+		{{ if project.poop }}<a href="{{ project.heroku }}" target="_blank">Heroku</a>{{ endif }}
+		<p class="period">{{ job.period }}</p>
+	</dt><!--
+	--><dd>
+			{% for info in project.description %}
+			<ul>
+				<li style="list-style-type: circle;"> {{ info }} </li>
+			</ul>
+			{% endfor %}
+	</dd>
+	{% endfor %}
+</dl>
+
 
 
 
