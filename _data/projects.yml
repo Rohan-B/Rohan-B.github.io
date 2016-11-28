@@ -5,9 +5,11 @@
 
 -   title: Vitual Reality Jeep Adventure
     github: SD_HACKS_VR 
-    description: ["Built a virtual reality game for the Oculus Rift and the Myo armband using Unity and C# in 36 hours at SDHacks"]
+    description: ["Built a virtual reality game for the Oculus Rift and the Myo armband using Unity and C# in 36 hours at SDHacks"]		
+    heroku: null
 
 -   title: Spy Chat
-    heroku: test 
+    heroku: test
+    github: null
     description: ["Developed a web application allowing people to send each other encoded messages using Python, Flask, HTML,
 		CSS, Javascript, and Heroku"]

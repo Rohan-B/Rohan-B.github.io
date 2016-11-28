@@ -39,8 +39,8 @@
 	{% for project in site.data.projects %}
 	<dt>
 		<p class="title">{{ project.title }}</p>
-		{{ if project.github }}<a href="http://github.com/{{ site.github_username }}/{{project.github}}" target="_blank">GitHub</a>{{ endif }}
-		{{ if project.poop }}<a href="{{ project.heroku }}" target="_blank">Heroku</a>{{ endif }}
+		{{ if project.github.length != null }}<a href="http://github.com/{{ site.github_username }}/{{project.github}}" target="_blank">GitHub</a>{{ endif }}
+		{{ if project.heroku.length != null }}<a href="{{ project.heroku }}" target="_blank">Heroku</a>{{ endif }}
 		<p class="period">{{ job.period }}</p>
 	</dt><!--
 	--><dd>
