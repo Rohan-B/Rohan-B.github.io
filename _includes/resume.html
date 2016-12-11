@@ -1,3 +1,4 @@
+<div id="resume">
 <h3 class="section-title">Education</h3>
 <dl class="education">
 	{% for qualification in site.data.education %}
@@ -39,8 +40,8 @@
 	{% for project in site.data.projects %}
 	<dt>
 		<p class="title">{{ project.title }}</p>
-		{{ if project.github.length != null }}<a href="http://github.com/{{ site.github_username }}/{{project.github}}" target="_blank">GitHub</a>{{ endif }}
-		{{ if project.heroku.length != null }}<a href="{{ project.heroku }}" target="_blank">Heroku</a>{{ endif }}
+		<a href="http://github.com/{{ site.github_username }}/{{project.github}}" target="_blank">GitHub</a>
+		<a href="{{ project.heroku }}" target="_blank">{{project.name}}</a>
 		<p class="period">{{ job.period }}</p>
 	</dt><!--
 	--><dd>
@@ -52,7 +53,7 @@
 	</dd>
 	{% endfor %}
 </dl>
-
+</div>
 
 
 

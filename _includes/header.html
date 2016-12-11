@@ -34,6 +34,9 @@
 
 <!-- Scripts for only header.html -->
 <script>
+	
+	console.log($("#resume").hide());
+
 	/* Typed JS functions */
 	$(function(){
 		$("#hello").typed({
@@ -60,7 +63,10 @@
 	});
 	/*END Typed JS functions */
 
-	setTimeout(function() {tnslInit([1]);}, 8500);
+	setTimeout(function() {
+		tnslInit([1]);
+		$("#resume").show();
+		}, 8500);
 
 	// this is bad code and I should fix it later
 	if ($(window).height() > 585) {

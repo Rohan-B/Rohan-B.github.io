@@ -2,14 +2,16 @@
     github: force-focus 
     description: ["Google Chrome extension that tracks your calendar and blocks distracting websites if you have a class
 		currently going on or a test coming up, used Google APIs and Javascript"]
+    name: 
 
 -   title: Vitual Reality Jeep Adventure
     github: SD_HACKS_VR 
     description: ["Built a virtual reality game for the Oculus Rift and the Myo armband using Unity and C# in 36 hours at SDHacks"]		
-    heroku: null
+    name: 
 
 -   title: Spy Chat
-    heroku: test
-    github: null
+    heroku: https://gentle-eyrie-28483.herokuapp.com/ 
+    github: SPIS15-Project-Graphics-Rohan-Darin 
     description: ["Developed a web application allowing people to send each other encoded messages using Python, Flask, HTML,
 		CSS, Javascript, and Heroku"]
+    name: Heroku
