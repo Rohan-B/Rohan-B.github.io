@@ -4,7 +4,7 @@
 			<div id="helloData">
 			<p>Hello</p>
 			</div>
-			
+
 			<div id="mainData">
 				<p class="intro__main">My name is <span>{{ site.name }}</span>, a {{ site.job }} who loves all things {{ site.languages }}</p>
             </div>
@@ -12,14 +12,14 @@
 			<div id="postData">
 				<p class="intro__post">{{ site.location }}</p>
 			</div>
-		
+
 		</div>
 		<div class="intro">
 			<p class="intro__pre" id="hello"></p>
 			<p class="intro__main" id="main"></p>
 			<p class="intro__post" id="post"></p>
 		</div>
-		
+
 		{{ if site.github_username or site.codepen_username or site.twitter_username or site.email_address }}
         <div class="social tnsl-flicker">
             {{ if site.github_username }}<a href="http://github.com/{{ site.github_username }}" target="_blank">GitHub</a>{{ endif }}
@@ -28,13 +28,15 @@
 			target="_blank">Twitter</a>{{ endif }} -->
 			{{ if site.linkedin_username}}<a href="http://linkedin.com/{{ site.linkedin_username }}" target="_blank">LinkedIn</a>{{ endif }}
 			{{ if site.email_address }}<a href="mailto:{{ site.email_address }}" target="_blank">Email</a>{{ endif }}
+      <a href="{{ site.url }}/assets/Rohan-Bhargava-Resume.pdf">
+
 		</div>
         {{ endif }}
 	</div>
 
 <!-- Scripts for only header.html -->
 <script>
-	
+
 	console.log($("#resume").hide());
 
 	/* Typed JS functions */
@@ -42,10 +44,10 @@
 		$("#hello").typed({
 			stringsElement: $('#helloData'),
 			showCursor: false,
-			startDelay: 1000 
+			startDelay: 1000
 		});
 	});
-	
+
 	$(function(){
 		$("#main").typed({
 			stringsElement: $('#mainData'),
@@ -53,7 +55,7 @@
 			startDelay: 3000
 		});
 	});
-	
+
 	$(function(){
 		$("#post").typed({
 			stringsElement: $('#postData'),
@@ -71,7 +73,7 @@
 	// this is bad code and I should fix it later
 	if ($(window).height() > 585) {
 		$("#container").height($(window).height() * 0.5);
-	} 
+	}
 
 
 </script>
